@@ -2,6 +2,7 @@
     margin: 50px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .altaTitulo{
@@ -18,10 +19,12 @@
 .grupoInputs{
     width: 50%;
     margin: 10px;
+    
 }
 
 .grupoInputs input{
     width: 70%;
+    border-radius: 15px;
 }
 
 .grupoInputs label{

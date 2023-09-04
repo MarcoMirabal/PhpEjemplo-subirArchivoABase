@@ -1,14 +1,14 @@
 
 <html lang="es">
 	<head>
-	<link rel="stylesheet" href="css/altaBajaModificacion.css">
+	<link rel="stylesheet" href="../css/altaBajaModificacion.css">
 	</head>
 </html>
 
 
 <?php 
 
-include 'menu.php';
+include '../PhpEjemplo-subirArchivoABase/p%C3%A1g_web/menu.php';
 
 $ape = $_POST['apellido'];
 $nom = $_POST['nombre'];
