@@ -26,6 +26,11 @@ include 'menu.php';
         </div>
 
 		<div class="grupoInputs">
+		<label for="usuario">Nombre de usuario:</label>
+		<input type="text" name="usuario"><br>
+        </div>
+
+		<div class="grupoInputs">
 		<label for="edad">Edad:</label>
 		<input type="number" name="edad"><br>
 	    </div>

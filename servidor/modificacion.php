@@ -1,5 +1,9 @@
 
 <html lang="es">
+	<body>
+	<a href="../pag_web/form-altas.php">Volver</a>
+
+	</body>
 </html>
 
 

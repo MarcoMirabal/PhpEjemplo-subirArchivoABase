@@ -3,6 +3,10 @@
 	<head>
 	<link rel="stylesheet" href="../css/altaBajaModificacion.css">
 	</head>
+	<body>	
+	<a href="../pag_web/form-altas.php">Volver</a>
+
+</body>
 </html>
 
 
@@ -15,10 +19,11 @@ $nom = $_POST['nombre'];
 $ed = $_POST['edad'];
 $foto = $_FILES["foto"]["tmp_name"];
 $fotoTamanio = $_FILES["foto"]["size"];
+$us = $_POST['usuario'];
 
 // salida de informacion
 
-echo "<h3>".$ape."</h3>". "<h3>".$nom."</h3>". "<h3>".$ed."</h3>";
+echo "<h3>".$ape."</h3>". "<h3>".$nom."</h3>". "<h3>".$ed."</h3>". "<h3>".$us."</h3>";
 
 if($foto != "none")
 {
@@ -30,7 +35,7 @@ if($foto != "none")
 	$base = "gestionsubir";
 $Conexion =  mysqli_connect("localhost","root","",$base);
 
-$cadena= "INSERT INTO persona(apellido, nombre, edad,foto) VALUES ('$ape','$nom','$ed','$contenido')";
+$cadena= "INSERT INTO persona(apellido, nombre, edad,foto, usuario) VALUES ('$ape','$nom','$ed','$contenido', '$us')";
 
 $resultado = mysqli_query($Conexion,$cadena);
 
