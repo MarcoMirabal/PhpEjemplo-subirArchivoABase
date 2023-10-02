@@ -1,6 +1,6 @@
 <?php
 include '../pag_web/menu.php';
-	?>
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
