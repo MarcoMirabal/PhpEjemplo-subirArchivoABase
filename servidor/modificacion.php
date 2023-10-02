@@ -1,6 +1,9 @@
 
 <html lang="es">
 	<body>
+		<head>
+		<link rel="stylesheet" href="../css/altaBajaModificacion.css">
+		</head>
 	<a href="../pag_web/form-altas.php">Volver</a>
 
 	</body>
@@ -9,7 +12,7 @@
 
 <?php 
 
-include '../menu.php';
+include '../pag_web/menu.php';
 
 $us = $_POST['usuario'];
 $ape = $_POST['apellido'];

@@ -1,5 +1,8 @@
 
 <html lang="es">
+	<head>	
+		<link rel="stylesheet" href="../css/altaBajaModificacion.css">>
+	</head>
 	<body>
 	<a href="../pag_web/form-altas.php">Volver</a>
 
