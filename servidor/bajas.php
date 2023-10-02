@@ -9,10 +9,10 @@
 
 <?php 
 
-include '../p%C3%A1g_web/menu.php';
+include '../pag_web/menu.php';
 
 
-$ape = $_POST['apellido'];
+$us = $_POST['usuario'];
 
 $base = "gestion";
 $Conexion =  mysqli_connect("localhost","root","",$base);
@@ -23,7 +23,7 @@ if($Conexion){
 	echo "la conexion ha fallado "."<br>";
 }
 
-$cadena= "DELETE FROM persona  WHERE apellido = '$ape'";  
+$cadena= "DELETE FROM persona  WHERE usuario = '$us'";  
 
 $resultado = mysqli_query($Conexion,$cadena);
 

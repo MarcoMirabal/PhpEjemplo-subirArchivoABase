@@ -25,7 +25,7 @@ include 'menu.php';
 		</thead>
 	<?php 
 
-$base = "gestionsubir";
+$base = "gestion";
 $Conexion =  mysqli_connect("localhost","root","",$base);
 
 $cadena= "SELECT * FROM persona ";

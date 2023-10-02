@@ -32,7 +32,7 @@ if($foto != "none")
 	$contenido = addslashes($contenido);
 	fclose($fp);
 
-	$base = "gestionsubir";
+	$base = "gestion";
 $Conexion =  mysqli_connect("localhost","root","",$base);
 
 $cadena= "INSERT INTO persona(apellido, nombre, edad,foto, usuario) VALUES ('$ape','$nom','$ed','$contenido', '$us')";

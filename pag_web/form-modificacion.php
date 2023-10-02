@@ -1,6 +1,6 @@
 <?php
-include 'menu.php';
-?>
+include '../pag_web/menu.php';
+	?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,7 +13,7 @@ include 'menu.php';
 
 <div class="container">
 	<h3 class="altaTitulo">FORMULARIO DE MODIFICACION</h3>
-	<form class="altaInput" action="modificacion.php" method="POST" >
+	<form class="altaInput" action="../servidor/modificacion.php" method="POST" >
 	<div class="grupoInputs">
 		<label for="usuario">Campo Clave Usuario:</label>
 		<input type="text" name="usuario"><br>	
